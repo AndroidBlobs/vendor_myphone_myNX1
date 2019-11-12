@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" Environment="TEE" platform="项目信息: 华粤世通 华粤世通 恒和电子（广泰兴电子）01 L5701 L5701 HH4419 SW331">
+  <feature>
+     <key_emulation cname="按键功能开关" default="false" desc="默认：false" format="boolean" useable="true">true</key_emulation>
+  
+    
+  </feature>
+
+  <solution>
+    
+    
+    
+    <trusty_spi_id cname="trusty SPI bus number" default="0" desc="展讯 SPI 总线号。默认：0" format="array" options="SPI_0|SPI_1|SPI_2|SPI_3|SPI_4|SPI_5|SPI_6|SPI_7|SPI_8|SPI_9|SPI_10|SPI_11" useable="true" values="0|1|2|3|4|5|6|7|8|9|10|11">1</trusty_spi_id>
+  </solution>
+  
+  
+  
+</sunwave:Config>
